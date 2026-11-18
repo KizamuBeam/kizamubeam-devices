@@ -1,0 +1,13 @@
+{
+  "name": "kizamubeam-devices",
+  "version": "0.1.0",
+  "description": "Device profiles and machine templates for KizamuBeam",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build-pack": "node scripts/build-pack.mjs",
+    "test": "npm run validate"
+  }
+}
