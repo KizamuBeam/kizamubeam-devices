@@ -8,6 +8,7 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "build-pack": "node scripts/build-pack.mjs",
+    "build-catalog": "node scripts/build-catalog.mjs _site",
     "test": "npm run validate"
   }
 }
